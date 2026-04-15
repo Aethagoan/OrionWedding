@@ -87,6 +87,19 @@ body {
 	margin:1rem;
 }
 
+.picture-grid img {
+	width: 100%;
+	height: auto;
+	max-width: 300px;
+	border-radius: 0.5rem;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.spacer {
+	height: 3rem;
+}
+
+
 hr {
 	color:var(--dark-color);
 	margin: 1rem 2rem;
