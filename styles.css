@@ -103,6 +103,7 @@ body {
 hr {
 	color:var(--dark-color);
 	margin: 1rem 2rem;
+	width:85%;
 }
 
 p {
