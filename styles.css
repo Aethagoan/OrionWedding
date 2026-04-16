@@ -119,6 +119,11 @@ h1 {
 	margin:.1rem;
 }
 
+h2 {
+	text-align: left;
+	width: 85%;
+}
+
 p {
 	font-size: 1.5rem;
 	margin:.1rem;
@@ -128,12 +133,15 @@ p {
 	padding: .3rem 0;
 }
 
+a:hover {
+	background-color: white;
+}
 
-a {
+.arrow-link {
 	color: #2f3682;
 }
 
-a::after {
+.arrow-link::after {
 	content:" ↗";
 }
 
