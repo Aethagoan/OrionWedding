@@ -145,6 +145,18 @@ a:hover {
 	content:" ↗";
 }
 
+@media (max-aspect-ratio: 1/1) {
+	.qr-block {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+
+	.qr-code {
+		height: 12rem;
+	}
+}
+
 /* Landscape/Desktop: horizontal layout when width > height */
 @media (min-aspect-ratio: 1/1) {
 	.headercontainer {
